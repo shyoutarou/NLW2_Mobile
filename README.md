@@ -1,7 +1,7 @@
 # NLW-Next-Level-Week #2
 
 <h1 align="center">
-    <img alt="NextLevelWeek" title="#NextLevelWeek" style="object-fit: cover; width:250px; height:250px;" src="mobile/src/assets/imagens/nlw.gif"  />
+    <img alt="NextLevelWeek" title="#NextLevelWeek" style="object-fit: cover; width:250px; height:250px;" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Web/master/mobile/src/assets/imagens/nlw.gif"  />
 </h1>
 
 <h2 align="center">
@@ -16,18 +16,14 @@
 <p align="center">
   <a href="#-sobre-o-projeto">Sobre o Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-motivo">Motivo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-screenshots">Screenshots</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-days-e-techs">Days e Techs</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-desenvolvimento">Desenvolvimento</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-screenshots">Screenshots</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-instalação-e-start">Instalação e Start</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-extra-chalenges">Extra chalenges</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-issues">Issues</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-contribuições">Contribuições</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-license">License</a> 
-</p>
-
-<p align="center">
-  <a href="https://insomnia.rest/run/?label=Proffy&uri=https%3A%2F%2Fgithub.com%2Frafacdomin%2Fproffy%2Fblob%2Fmaster%2Fapi%2FInsomnia_proffy.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
 </p>
 
 ## ❔ Sobre o projeto
@@ -86,6 +82,8 @@ Desenvolvimento do projeto Next Level Week, desenvolvido pela Rocketseat.
 - [x] Navegação em abas
 - [x] Componente Page Header
 
+[Passo-a-Passo Aula 4](Aula03.md)
+
 #### Aula 5: Finalizando app mobile
 - [x] Lista de professores
 - [x] Filtro de professores
@@ -96,18 +94,14 @@ Desenvolvimento do projeto Next Level Week, desenvolvido pela Rocketseat.
 - [x] Adicionando e removendo favoritos
 - [x] Listando favoritos
 
+[Passo-a-Passo Aula 5](Aula03.md)
 
 ## 📸 Screenshots
-
-### Web Responsive Interface  para Desktop com ReactJS
-<p align="center">
-  <img src="mobile/src/assets/imagens/appweb.gif" alt="Study Page in Mobile" width="100%" />
-</p>
 
 ### Mobile Interface com React Native
 
 <p align="center">
-  <img src="mobile/src/assets/imagens/appmobile.gif" alt="Landing Page Proffy in Mobile" width="25%" />
+  <img src="https://raw.githubusercontent.com/shyoutarou/NLW2_Web/master/mobile/src/assets/imagens/appmobile.gif" alt="Landing Page Proffy in Mobile" width="25%" />
 </p>
 
 <h2 align="left"> 📥 Figma layout available for download at: </h2>
@@ -174,6 +168,23 @@ Back End (pasta server) Front End (pasta web) Mobile (pasta mobile)
 > yarn start  or npm run start
 
 # Será startado em `http://localhost:3333`
+```
+### 📱 Executar Projeto Mobile
+
+```bash
+# Go into the repository
+$ cd proffy/mobile
+
+# Install dependencies
+$ yarn install or npm install
+
+# Run
+$ yarn start or npm run start
+
+# Expo will open, just scan the qrcode on terminal or expo page
+
+# If some problem with fonts, execute:
+$ expo install expo-font @expo-google-fonts/archivo @expo-google-fonts/poppins
 ```
 
 ## Extra chalenges in App Version 2.0
