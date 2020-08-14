@@ -1,7 +1,6 @@
 import React, { useContext } from "react";
 import { View , Button, StyleSheet} from "react-native";
-import { signIn } from "../../services/auth";
-import AuthContext from "../../contexts/auth";
+import { useCustomHookAuth } from "../../contexts/auth";
 
 const styles = StyleSheet.create({
     container: {
@@ -14,8 +13,9 @@ const styles = StyleSheet.create({
 
   const SignIn: React.FC = () => {
 
-    const {signed, signIn} =  useContext(AuthContext);
+    const {signed, signIn, user} = useCustomHookAuth();
     console.log(signed);
+    console.log(user);
 
     function handleSign() {
       signIn();
