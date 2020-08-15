@@ -18,7 +18,7 @@ interface AuthContextData {
 
 const AuthContext = createContext<AuthContextData>({} as AuthContextData);
 
-export const AuthProvider: React.FC = ({ children }) => {
+const AuthProvider: React.FC = ({ children }) => {
 
   const [user, setUser] = useState<User | null>(null);
   const [loading, setLoading] = useState(true);
@@ -67,7 +67,7 @@ export const AuthProvider: React.FC = ({ children }) => {
   );
 };
 
-export function useCustomHookAuth() {
+function useCustomHookAuth() {
   const context = useContext(AuthContext);
 
   if (!context) {
@@ -77,4 +77,4 @@ export function useCustomHookAuth() {
   return context;
 }
 
-export default AuthContext;
+export { AuthProvider, useCustomHookAuth } ;

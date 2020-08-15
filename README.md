@@ -1,7 +1,7 @@
 # NLW-Next-Level-Week #2
 
 <h1 align="center">
-    <img alt="NextLevelWeek" title="#NextLevelWeek" style="object-fit: cover; width:250px; height:250px;" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Web/master/mobile/src/assets/imagens/nlw.gif"  />
+    <img alt="NextLevelWeek" title="#NextLevelWeek" style="object-fit: cover; width:250px; height:250px;" src=".github/nlw.gif"  />
 </h1>
 
 <h2 align="center">
@@ -35,6 +35,16 @@ O projeto está sendo desenvolvido na [Next Level Week 2](https://nextlevelweek.
 ## 🧐 Motivo
 
 Desenvolvimento do projeto Next Level Week, desenvolvido pela Rocketseat.
+
+### ***Utilitários***
+
+- Protótipo: **[Figma](https://www.figma.com/)** &rarr; **<kbd>[Protótipo (Proffy)](https://www.figma.com/file/GHGS126t7WYjnPZdRKChJF/Proffy-Web/duplicate)</kbd>**
+- Editor: **[Visual Studio Code][vscode]** &rarr; Extensions: **<kbd>[SQLite][vscode_sqlite_extension]</kbd>**
+- Markdown: **[StackEdit][stackedit]**, **<kbd>[Markdown Emoji][markdown_emoji]</kbd>**
+- Commit Conventional: **[Commitlint][commitlint]**
+- Teste de API: **[Insomnia][insomnia]**
+- Ícones: **[Feather Icons][feather_icons]**, **[Font Awesome][font_awesome]**
+- Fontes: **[Archivo][font_archivo]**, **[Poopins][font_poopins]**
 
 ### 🛠 Days e Techs
 
@@ -101,7 +111,7 @@ Desenvolvimento do projeto Next Level Week, desenvolvido pela Rocketseat.
 ### Mobile Interface com React Native
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/shyoutarou/NLW2_Web/master/mobile/src/assets/imagens/appmobile.gif" alt="Landing Page Proffy in Mobile" width="25%" />
+  <img src=".github/appmobile.gif" alt="Landing Page Proffy in Mobile" width="25%" />
 </p>
 
 <h2 align="left"> 📥 Figma layout available for download at: </h2>
