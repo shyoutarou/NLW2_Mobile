@@ -12,6 +12,12 @@
   <img src="https://img.shields.io/github/license/matheusfelipeog/proffy?color=blue&style=for-the-badge" alt="License" />
 </h2>
 
+## 👅 Línguas
+
+- [README in English](README-EN.md)
+- [README in German/Deustch](README-DE.md)
+- [README in Japanese](README-JA.md)
+
 ## 📌 Index
 <p align="center">
   <a href="#-sobre-o-projeto">Sobre o Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -277,7 +283,6 @@ Siga os passos abaixo para contribuir:
 - [React (without Redux) - JWT Authentication Tutorial & Example](https://jasonwatmore.com/post/2019/04/06/react-jwt-authentication-tutorial-example)
 - [Scroll infinito no React Native](https://blog.rocketseat.com.br/scroll-infinito-no-react-native/)
 - [Deploy NLW](https://www.notion.so/Deploy-NLW-56f2a980c20e41d6b1dd22a4d1348e6e)
-- [Joi](https://hapi.dev/module/joi/)
 
 ## 📜 License
 
