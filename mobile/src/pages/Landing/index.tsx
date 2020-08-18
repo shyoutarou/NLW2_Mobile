@@ -6,10 +6,10 @@ import { RectButton } from 'react-native-gesture-handler'
 
 import api from '../../services/api'
 
-import landingImg from '../../assets/images/landing.png'
-import studyIcon from '../../assets/images/icons/study.png'
-import giveClassesIcon from '../../assets/images/icons/give-classes.png'
-import heartIcon from '../../assets/images/icons/heart.png'
+import landingImg from '../../../assets/images/landing.png'
+import studyIcon from '../../../assets/images/icons/study.png'
+import giveClassesIcon from '../../../assets/images/icons/give-classes.png'
+import heartIcon from '../../../assets/images/icons/heart.png'
 
 function Landing(){
     const {navigate} = useNavigation();

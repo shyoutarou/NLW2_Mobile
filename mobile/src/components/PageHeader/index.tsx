@@ -2,7 +2,7 @@ import React, { ReactNode } from 'react'
 import { View, Image, Text } from 'react-native'
 import { Ionicons } from '@expo/vector-icons'
 import { BorderlessButton } from 'react-native-gesture-handler'
-import logoImg from '../../assets/images/logo.png'
+import logoImg from '../../../assets/images/logo.png'
 import { useNavigation } from '@react-navigation/native'
 
 import styles from './styles'
