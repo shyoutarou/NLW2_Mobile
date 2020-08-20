@@ -1,53 +1,139 @@
-# Aula 2: Proffy-Server
+# Aula 5 (07/08/2020) - Finalizando app mobile
 
-[Voltar as README.md](README.md)
+## Conectando Mobile
 
-## FLUXO DESENVOLVIMENTO REACT
-
-… explicado o fluxo normal de aplicaÁıes, as funÁıes Front e Back-End. A diferenÁa do modelo MVC (carregava tudo a cada Refresh) e o modelo SPA (Single Page Application). Explicado que est· se utilizando o Node.js pois permite utilizar a mesma linguagem, Typescript e React, para escrever o Front o Back e o mobile.
+Precisamos instalar novamente a biblioteca que facilita o consumo de API externas pela aplica√ß√£o:
+yarn add axios
 
 <h1 align="center">
-    <img alt="Create Project" src=".github/fluxo_react.png" />
+    <img alt="Create Project" src=".github/addaxios.png" />
     <br>
 </h1>
 
-Em aplicativos mobile (Kotlin, Swift, React, Flutter), n„o entendem HTML (body, table, etc.) para facilitar o consumo de dados por este tipo de dispositivos que tornou popular as API REST, pois retornam os dados em formato JSON e a tecnologia do Front-End que constrÛi o HTML, ele n„o retorna mais do servidor (modelo MVC). 
+Como no projeto Web, crie uma pasta services e dentro dela o arquivo api.ts.
 
-### API (Application Programming Interface)
+<h1 align="center">
+    <img alt="Create Project" src=".github/apits.png" />
+    <br>
+</h1>
 
-O acrÙnimo API que provÈm do inglÍs trata-se de um conjunto de rotinas e padrıes estabelecidos e documentados por uma aplicaÁ„o A, para que outras aplicaÁıes consigam utilizar as funcionalidades desta aplicaÁ„o A, sem precisar conhecer detalhes da implementaÁ„o do software.
 
-Desta forma, entendemos que as APIs permitem uma interoperabilidade entre aplicaÁıes. Em outras palavras, a comunicaÁ„o entre aplicaÁıes e entre os usu·rios.
+O IP que utilizamos √© o disponibilizado pelo Metro Bundler abaixo que permite testarmos a aplica√ß√£o. Lembre-se que sempre que trocar de m√°quina, deve-se atualizar este n√∫mero para testar na m√°quina atual.
+```bash
+192.168.0.101:3333
+```
+<h1 align="center">
+    <img alt="Create Project" src=".github/lanmaq.png" />
+    <br>
+</h1>
 
-### REST (Representational State Transfer)
 
-REST trata-se de uma abstraÁ„o da arquitetura da Web. Resumidamente, o REST consiste em princÌpios/regras/constraints que, quando seguidas, permitem a criaÁ„o de um projeto com interfaces bem definidas. Desta forma, permitindo, por exemplo, que aplicaÁıes se comuniquem.
+Isso √© necess√°rio pois o localhost pode n√£o ser acess√≠vel na rede, ent√£o √© necess√°rio utilizar o IP. Em um terminal paralelo, navegue at√© a pasta do servidor e inicie-o com o comando yarn start. Depois teste com o Insomnia a conex√£o:
+ <h1 align="center">
+    <img alt="Create Project" src=".github/Insomnia.png" />
+    <br>
+</h1>
 
-O HTTP È o principal protocolo de comunicaÁ„o para sistemas Web, existente h· mais de 20 anos, e em todo esse tempo sofreu algumas atualizaÁıes. Nos anos 2000, um dos principais autores do protocolo HTTP, Roy Fielding, sugeriu, dentre outras coisas, o uso de novos mÈtodos HTTP. Estes mÈtodos visavam resolver problemas relacionados a sem‚ntica quando requisiÁıes HTTP eram feitas.
+A chamada da API na aplica√ß√£o mobile √© id√™ntica a da web.
+ <h1 align="center">
+    <img alt="Create Project" src=".github/chamadaAPI.png" />
+    <br>
+</h1>
+ <h1 align="center">
+    <img alt="Create Project" src=".github/conexoes.png" />
+    <br>
+</h1>
 
-Estas sugestıes permitiram o uso do HTTP de uma forma muito mais prÛxima da nossa realidade, dando sentido ‡s requisiÁıes HTTP. Para melhor compreens„o, veja os exemplos abaixo (requisiÁıes em formatos fictÌcios):
+J√° nos componentes de filtro da p√°gina TeacherList, uma diferen√ßa √© que inv√©s de Onchange est√° se usando OnchangeText, mas isso porque, por raz√µes de tempo, n√£o foi implementado a caixa de sele√ß√£o (ficando como um dos Desafios mais adiante).
+ <h1 align="center">
+    <img alt="Create Project" src=".github/setsuject.png" />
+    <br>
+</h1>
 
-- **GET** http://www.meusite.com/usuarios
-- **DELETE** http://www.meusite.com/usuarios/jackson
-- **POST** http://www.meusite.com/usuarios ñdata {nome: joaquim}
 
-Pela simples leitura  È possÌvel inferir que no primeiro caso estamos pegando (GET) todos os usu·rios do site, ou seja, teremos uma lista de todos os usu·rios que est„o cadastrados no sistema/site. J·, no segundo caso, estamos apagando (DELETE) o usu·rio Jackson. No ˙ltimo exemplo, estamos usando o mÈtodo POST, em que percebemos o envio de dados extras para cadastrar um novo usu·rio.
+Para testar o bot√£o de filtro √© poss√≠vel fazer a mesma estrat√©gia de emitir um console.log no m√©todo relacionado:
+ <h1 align="center">
+    <img alt="Create Project" src=".github/handlefilter.png" />
+    <br>
+</h1>
+ <h1 align="center">
+    <img alt="Create Project" src=".github/filersubmit.png" />
+    <br>
+</h1>
 
-Veja o qu„o simples ficou expressar o que desejamos realizar ao acessar um determinado endereÁo, usando verbos especÌficos para URLs especÌficas e usando dados padronizados, quando necess·rio.
 
-Estes princÌpios apresentados fazem parte do REST! Em outras palavras, nesses exemplos, temos: uma representaÁ„o padronizada, verbos e mÈtodos usados, bem como, URLs.
+√önica coisa a se lembrar √© de trocar o aparelho que estiver se testando, se for emulador ou aparelho f√≠sico.
+ <h1 align="center">
+    <img alt="Create Project" src=".github/aparelho.png" />
+    <br>
+</h1>
+ 
 
-Existe uma certa confus„o quanto aos termos REST e RESTful. Entretanto, ambos representam os mesmo princÌpios. A diferenÁa È apenas gramatical. Em outras palavras, sistemas que utilizam os princÌpios REST s„o chamados de RESTful.
-- **REST**: conjunto de princÌpios de arquitetura
-- **RESTful**: capacidade de determinado sistema aplicar os princÌpios de REST.
+Feito isso o m√©todo √© id√™ntico ao do projeto web:
+ <h1 align="center">
+    <img alt="Create Project" src=".github/projetoweb.png" />
+    <br>
+</h1> 
 
-Iremos agora criar uma Web API REST. Crie uma pasta server, abra o PowerShell. Para iniciar um projeto, entre na pasta onde o projeto ser· criado e dÍ o comando:
+ <h1 align="center">
+    <img alt="Create Project" width="300" src=".github/proffyaba.png" />
+    <br>
+</h1> 
+
+## WhatsApp ‚Äì Deep Linking
+
+No bot√£o do WhatsApp vamos aplicar uma t√©cnica conhecida como ‚ÄúDeep Linking‚Äù onde uma aplica√ß√£o abre outra aplica√ß√£o. Grande parte de aplica√ß√£o mobile tem um endere√ßo URL em que √© poss√≠vel acessar pelo m√≥dulo do React Native Linking:
 
 ```bash
-yarn init -y
+import { View, Image, Text, Linking, AsyncStorage } from 'react-native'; 
 ```
+ <h1 align="center">
+    <img alt="Create Project" src=".github/imports.png" />
+    <br>
+</h1> 
 
-O par‚metro ì-yî serve para pular as perguntas iniciais como nome e autor do projeto. ApÛs isso abra o VS Code e foi criado a dependÍncias da aplicaÁ„o (packages.json)
+## Favoritos ‚Äì Armazenamento Interno
 
-[Voltar as README.md](README.md)
+Para armazenamento interno no mobile precisamos instalar um DB pelo:
+```bash
+expo install @react-native-community/async-storage
+```
+ <h1 align="center">
+    <img alt="Create Project" src=".github/async-storage.png" />
+    <br>
+</h1> 
+
+Temos que criar a propriedade no componente TeacherItem para sabermos quando foi favoritado e fazer as mudan√ßas necess√°rias no Layout.
+
+ <h1 align="center">
+    <img alt="Create Project" src=".github/TeacherItem.png" />
+    <br>
+</h1> 
+
+ <h1 align="center">
+    <img alt="Create Project" src=".github/TeacherItem2.png" />
+    <br>
+</h1> 
+
+
+O favoriteArray.push adiciona o item no Array de favorito, o splice remove o conte√∫do da lista. No bot√£o dos favoritos h√° apenas um condicional trocando a imagem do bot√£o favorito:
+
+ <h1 align="center">
+    <img alt="Create Project" src=".github/favoriteArray.png" />
+    <br>
+</h1> 
+
+Na p√°gina TeacherList precisamos de uma vari√°vel constante de estado, para acompanhar as mudan√ßa no controle salvando a id do professor.
+
+```bash
+const [favorites, setFavorites] = useState<number[]>([]);
+```
+ <h1 align="center">
+    <img alt="Create Project" src=".github/TeacherList.png" />
+    <br>
+</h1> 
+ 
+
+
+
     
