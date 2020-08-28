@@ -7,9 +7,42 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     padding: 40
   },
+  header: {
+    marginTop: 30,
+    justifyContent: 'space-between',
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingHorizontal: 20,
+  },
+  avatarContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  avatarImg: {
+    borderRadius: 50,
+    height: 40,
+    width: 40,
+  },
+  profileName: {
+    marginLeft: 5,
+    color: '#D4C2FF',
+    fontFamily: 'Poppins_600SemiBold',
+    fontSize: 14,
+    lineHeight: 24,
+  },
+  topContainer: {
+    flex: 2,
+    paddingHorizontal: 20,
+    paddingVertical: 20,
+  },
   banner: {
     width: '100%',
     resizeMode: 'contain'
+  },
+  bottomContainer: {
+    backgroundColor: '#FFF',
+    flex: 5,
+    padding: 20,
   },
   title: {
     fontFamily: 'Poppins_400Regular',

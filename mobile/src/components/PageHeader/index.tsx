@@ -8,7 +8,8 @@ import { useNavigation } from '@react-navigation/native'
 import styles from './styles'
 
 interface PageHeaderProps {
-    title: string;
+    label?: string;
+    title?: string;
     headerRight?: ReactNode;
 }
 
