@@ -4,16 +4,35 @@ import { AsyncStorage, View, ActivityIndicator } from "react-native";
 import api from "../services/api";
 
 interface User {
+  id?: number;
   name: string;
   email: string;
+  avatar?: string;
+  whatsapp?: string;
+  bio?: string;
+  cost?: number;
+  subject?: string;
+  password?: string;
+  secund_name?: string;
 }
 
 interface AuthContextData {
   signed: boolean;
   user: User | null;
   loading: boolean;
-  signIn(): Promise<void>;
+  updateUserAvatar(avatar: string): Promise<boolean>;
+  signIn( 
+    email: string,
+    password: string,
+    remebemberMe: boolean) : Promise<void>;
   signOut(): void;
+}
+
+interface userProffy {
+  bio: string
+  whatsapp: string
+  subject: string
+  cost: string
 }
 
 const AuthContext = createContext<AuthContextData>({} as AuthContextData);
@@ -40,7 +59,11 @@ const AuthProvider: React.FC = ({ children }) => {
     loadStorageData();
   });
 
-  async function signIn() {
+  async function signIn(
+    email: string,
+    password: string,
+    remebemberMe: boolean
+  ) {
     const response = await auth.signIn();
 
     setUser(response.user);
@@ -60,8 +83,29 @@ const AuthProvider: React.FC = ({ children }) => {
     setLoading(true);
   }
   
+  async function updateUserAvatar(avatar: string) {
+    if (avatar && user) {
+      try {
+        const response = await api.post('/update-user', { email: user.email, name: user.name, avatar, whatsapp: user.whatsapp, bio: user.bio }, { timeout: 2000 });
+      } catch (error) {
+        console.log(error)
+        return false;
+      }
+      setUser({ ...user, avatar })
+      await AsyncStorage.removeItem("@RNAuth:user");
+      return true;
+    }
+    return false;
+  }
+
     return (
-    <AuthContext.Provider value={{ signed: !!user, user, signIn , signOut, loading}}>
+    <AuthContext.Provider value={{ 
+      signed: !!user, 
+      user, 
+      signIn , 
+      signOut, 
+      updateUserAvatar,
+      loading}}>
       {children}
     </AuthContext.Provider>
   );
