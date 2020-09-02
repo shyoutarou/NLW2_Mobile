@@ -300,7 +300,7 @@ Repare no módulo Ionicons que traz umas biblioteca de ícones padrão para celu
 </h1>
 
 Poderia ter sido utilizado o icons do:
-[ionicons](https://feathericons.com/)
+[feathericons](https://feathericons.com/)
    <h1 align="center">
     <img alt="Create Project"  width="500" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/feathericons.png" />
     <br>
