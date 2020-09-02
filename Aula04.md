@@ -1,5 +1,31 @@
 # Aula 4 (06/08/2020) - Estruturando app mobile
 
+details>
+ <summary>Videos Youtube</summary>
+
+2. Trilha OmniStack
+[Trilha OmniStack Aula 4](https://www.youtube.com/watch?v=_sZzCcf87j0)
+[Trilha OmniStack Aula 5](https://www.youtube.com/watch?v=EvRAXJuQrFE)
+
+</details>
+
+<details>
+ <summary>Wikis</summary>
+
+[Wiki Home](https://github.com/shyoutarou/NLW2_Web/wiki)
+4. [Aula 4](https://github.com/shyoutarou/NLW2_Web/wiki/Aula-4-(06-08-2020)---Estruturando-app-mobile)
+5. [Aula 5](https://github.com/shyoutarou/NLW2_Web/wiki/Aula-5-(07-08-2020)---Finalizando-app-mobile)
+
+</details>
+
+<details>
+ <summary>GitHub Pages</summary>
+
+1. [Web](https://shyoutarou.github.io/NLW2_Web/)
+2. [Mobile](https://shyoutarou.github.io/NLW2_Mobile/)
+
+</details>
+
 ## Interface Mobile
 
 Para o desenvolvimento mobile iremos utilizar a biblioteca expo, para criar o projeto mobile digite no PowerShell:
@@ -13,9 +39,11 @@ E escolha a opção:
 blank (TypeScript)    same as blank but with TypeScript configuration
 ```
 <h1 align="center">
-    <img alt="Create Project" src=".github/typesciptconfig.png" />
+    <img alt="Create Project" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/typesciptconfig.png" />
     <br>
 </h1>
+
+
 
 Quando criamos um projeto React Native que não seja pelo Expo, é possível iniciar um projeto React Native com Typescript, executando o comando:
 
@@ -25,7 +53,7 @@ npx react-native init authrn --template react-native-template-typescript
  
 Com npx ele busca o pacote na web instala na sua máquina na versão mais atualizada, executa o comando react-native, deixa em cache por um tempo e depois desinstala, dessa forma você não precisa ficar com o react-native cli na node_modules principal da sua máquina. O template Typescript vem da flag: --template react-native-template-typescript. Porém a estrutura do projeto e as estratégias do desenvolvimento da aplicação diferem.
  <h1 align="center">
-    <img alt="Create Project" width="500" src=".github/typescriptflag.png" />
+    <img alt="Create Project" width="500" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/typescriptflag.png" />
     <br>
 </h1>
 
@@ -37,7 +65,7 @@ npx react-native run-android
 
 Como no projeto expo não existe a pasta android, acontece o seguinte erro:
  <h1 align="center">
-    <img alt="Create Project" src=".github/androiderro.png" />
+    <img alt="Create Project" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/androiderro.png" />
     <br>
 </h1>
 
@@ -47,13 +75,13 @@ error Android project not found. Are you sure this is a React Native project? If
 
 Ao pesquisar na Internet sobre o problema vai levar a vários tópicos que vão indicar para atualizar o react-native, o que vai levar a outra sucessão de erros:
   <h1 align="center">
-    <img alt="Create Project" src=".github/sucessaoerros.png" />
+    <img alt="Create Project" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/sucessaoerros.png" />
     <br>
 </h1>
 
 No projeto Expo, que faz a interface com o navegador é o Metro Builder pelo navegador, e é ele que oferece as opções de depuração da aplicação. Porém para dispositivos físicos, aparentemente, não diferenças no desenvolvimento.
   <h1 align="center">
-    <img alt="Create Project" src=".github/MetroBuilder.png" />
+    <img alt="Create Project" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/MetroBuilder.png" />
     <br>
 </h1>
 
@@ -63,7 +91,7 @@ Dentro da pasta do projeto digite:
 yarn add expo OU npm install expo
 ```
   <h1 align="center">
-    <img alt="Create Project" src=".github/installexpo.png" />
+    <img alt="Create Project" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/installexpo.png" />
     <br>
 </h1>
 
@@ -72,19 +100,19 @@ Depois digite:
 yarn start OU npm start
 ```
   <h1 align="center">
-    <img alt="Create Project" src=".github/startmobile.png" />
+    <img alt="Create Project" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/startmobile.png" />
     <br>
 </h1>
 
 Que vai abrir o browser para visualizar os logs da aplicação, quais celulares disponíveis estão debugando, etc. 
   <h1 align="center">
-    <img alt="Create Project" src=".github/logsbuilder.png" />
+    <img alt="Create Project" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/logsbuilder.png" />
     <br>
 </h1>
 
 Quais celulares disponíveis estão debugando, etc.
   <h1 align="center">
-    <img alt="Create Project" src=".github/devices.png" />
+    <img alt="Create Project" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/devices.png" />
     <br>
 </h1>
  
@@ -93,7 +121,7 @@ Para listar emuladores podemos aplicar o comando:
 emulator –list-avds
 ```
   <h1 align="center">
-    <img alt="Create Project" src=".github/emulators.png" />
+    <img alt="Create Project" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/emulators.png" />
     <br>
 </h1>
 
@@ -110,7 +138,7 @@ exp://192.168.0.101:19000
 
 Para testar com o QR Code temos que instalar o app Expo cliente no celular:
 <h1 align="center">
-    <img alt="Create Project" width="200" src=".github/qrcode.png" />
+    <img alt="Create Project" width="200" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/qrcode.png" />
     <br>
 </h1>
 
@@ -124,7 +152,7 @@ To run the app with live reloading, choose one of:
 
 Com este QR Code é possível passar para outras pessoas com o expo instalado para poderem avaliar seu aplicativo pronto:
 <h1 align="center">
-    <img alt="Create Project" src=".github/qrothers.png" />
+    <img alt="Create Project" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/qrothers.png" />
     <br>
 </h1>
 
@@ -136,32 +164,32 @@ O expo pode dar muitos problemas de configuração, tem limitações de proxy e 
 
 Como podemos ver a estrutura do programa mobile e igual a da Web: JSX (Javascript + XML) e funções retornando Elementos gráficos com componentes utilizando os estados e propiedades. Porém estes elementos não são HTML puro e sim componentes pré-criados pela biblioteca do Native (StyleSheet, Text, View) e todos elementos tem display flex por padrão. O css também não existe (classes, ids) e nem herança de estilos. Cria-se um estilo particular e identificado por elemento. Não há parte de animações, nem gradientes, grid tem que fazer na unha.
  <h1 align="center">
-    <img alt="Create Project" src=".github/stylesmobile.png" />
+    <img alt="Create Project" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/stylesmobile.png" />
     <br>
 </h1>
 
 A única exceção de herança de estilo é quando se coloca componentes Text aninhados como abaico:
   <h1 align="center">
-    <img alt="Create Project" src=".github/textstyle.png" />
+    <img alt="Create Project" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/textstyle.png" />
     <br>
 </h1>
 
 Por padrão, o Native também não lê arquivos de imagem svg só png. Teria que instalar uma extensão. No mobile tem o conceito de densidade de pixels e temos que exportar as imagens em 3 tamanhos que o Native reconhece a resolução pelo nome ...2x, 3x, etc. Antes de existir o React, não era possível o Javascript reconhecer imagens. Para fazer a aplicação reconhecer arquivos png precisamos criar uma pasta @type em src com um arquivo index.d.ts com a seguinte declaração:
 declare module '*.png';
   <h1 align="center">
-    <img alt="Create Project" src=".github/modulepng.png" />
+    <img alt="Create Project" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/modulepng.png" />
     <br>
 </h1>
 
 Crie uma pasta src e dentro dela a pasta pages. Dentro dessa pasta teremos as páginas igual o que foi feito na aplicação web. Comece criando a página/pasta Landing com os arquivos index.tsx e styles,ts (não mais css)
   <h1 align="center">
-    <img alt="Create Project" src=".github/indextsx.png" />
+    <img alt="Create Project" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/indextsx.png" />
     <br>
 </h1>
 
 No arquivo principal App.tsx vamos prepara-lo para receber o componente Landing. Como não é possível “empilhar” os companentes Landing e StatusBar sem que haja alg envelopando-os, aqui podemos fazer de duas formas principais:
   <h1 align="center">
-    <img alt="Create Project" src=".github/viewfrag.png" />
+    <img alt="Create Project" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/viewfrag.png" />
     <br>
 </h1>
 
@@ -172,7 +200,7 @@ Para instalar as fontes usadas no projeto Web (Archivo e Poppins) faça o seguin
 expo install @expo-google-fonts/archivo @expo-google-fonts/poppins
 ```
   <h1 align="center">
-    <img alt="Create Project" src=".github/googlefonts.png" />
+    <img alt="Create Project" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/googlefonts.png" />
     <br>
 </h1>
 
@@ -184,13 +212,13 @@ import { Poppins_400Regular, Poppins_600SemiBold } from '@expo-google-fonts/popp
 ```
 Na mesma página, declare globalmente as variáveis e faça um condicional para verificar se as fontes foram carregadas:
   <h1 align="center">
-    <img alt="Create Project" src=".github/globlafonts.png" />
+    <img alt="Create Project" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/globlafonts.png" />
     <br>
 </h1>
 
 Por fim, é so utilizar nas StyleSheets de qualquer página.
   <h1 align="center">
-    <img alt="Create Project" src=".github/StyleSheets.png" />
+    <img alt="Create Project" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/StyleSheets.png" />
     <br>
 </h1>
  
@@ -202,7 +230,7 @@ import {View, Image, Text, TouchableOpacity} from 'react-native'
 
 E aplicando nos botões ficaria como abaixo. Repare que o style recebe um array de estilos, permitindo 2 estilos aproveitarem um estilo básico simulando a flexibilização de uma herança.
    <h1 align="center">
-    <img alt="Create Project" src=".github/buttonsstyle.png" />
+    <img alt="Create Project" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/buttonsstyle.png" />
     <br>
 </h1>
 
@@ -213,7 +241,7 @@ Para navegar vamos instalar a biblioteca React Native digitando:
 yarn add @react-navigation/native OU npm install @react-navigation/native
 ```
    <h1 align="center">
-    <img alt="Create Project" src=".github/react-navigation.png" />
+    <img alt="Create Project" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/react-navigation.png" />
     <br>
 </h1>
 
@@ -223,7 +251,7 @@ Depois temos que instalar as dependências em relação ao expo:
 expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
 ```
    <h1 align="center">
-    <img alt="Create Project" src=".github/gesture-handler.png" />
+    <img alt="Create Project" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/gesture-handler.png" />
     <br>
 </h1>
 
@@ -239,7 +267,7 @@ Precisamos instalar então a navegação stack e bottomtabs:
 yarn add @react-navigation/stack OU npm install @react-navigation/stack
 ```
    <h1 align="center">
-    <img alt="Create Project" src=".github/navigationstack.png" />
+    <img alt="Create Project" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/navigationstack.png" />
     <br>
 </h1>
 
@@ -247,34 +275,34 @@ yarn add @react-navigation/stack OU npm install @react-navigation/stack
 yarn add @react-navigation/bottom-tabs
 ```
    <h1 align="center">
-    <img alt="Create Project" src=".github/bottom-tabs.png" />
+    <img alt="Create Project" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/bottom-tabs.png" />
     <br>
 </h1>
 
 Criamos então uma pasta routes dentro de src e criamos duas páginas AppStack.tsx e StudyTabs.tsx uma pra cada tipo de navegação. A AppStack.tsx conterá as chamadas das páginas sem Tabs Landing e GiveClasses e a página com as Tabs StudyTabs. E por fim, nosso AppStack tem retornar um NavigationContainer contendo as telas(Screen) conforme a documentação.
    <h1 align="center">
-    <img alt="Create Project" src=".github/telasScreen.png" />
+    <img alt="Create Project" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/telasScreen.png" />
     <br>
 </h1>
 
 A StudyTabs terá o direcionamento para duas páginas TeacherList (aba Proffys) e Favoritos. Na StudyTabs conterá o conteúdo e o visual (style.ts) das tabs.
 
    <h1 align="center">
-    <img alt="Create Project" src=".github/StudyTabs.png" />
+    <img alt="Create Project" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/StudyTabs.png" />
     <br>
 </h1>
 
 Repare no módulo Ionicons que traz umas biblioteca de ícones padrão para celular.
 [ionicons](https://ionicons.com/)
    <h1 align="center">
-    <img alt="Create Project" width="500" src=".github/ionicons.png" />
+    <img alt="Create Project" width="500" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/ionicons.png" />
     <br>
 </h1>
 
 Poderia ter sido utilizado o icons do:
 [ionicons](https://feathericons.com/)
    <h1 align="center">
-    <img alt="Create Project"  width="500" src=".github/feathericons.png" />
+    <img alt="Create Project"  width="500" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/feathericons.png" />
     <br>
 </h1>
 
@@ -293,17 +321,17 @@ import { Feather } from '@expo/vector-icons';
 
 E que a estilização do tab tem ser feita pela propriedade tabBarOptions do Navigator.
    <h1 align="center">
-    <img alt="Create Project" src=".github/tabBarOptions.png" />
+    <img alt="Create Project" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/tabBarOptions.png" />
     <br>
 </h1>
    <h1 align="center">
-    <img alt="Create Project" width="500" src=".github/proffysdispo.png" />
+    <img alt="Create Project" width="500" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/proffysdispo.png" />
     <br>
 </h1
 
 As duas páginas devem conter conteúdo similar que irá ter o conteúdo (index.tsx) e o visual (style.ts) das páginas.
    <h1 align="center">
-    <img alt="Create Project" src=".github/favorites.png" />
+    <img alt="Create Project" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/favorites.png" />
     <br>
 </h1
 
@@ -316,13 +344,19 @@ import { useNavigation } from '@react-navigation/native'
 
 Crie as funções que serão associando aos botões de navegação e indique a rota:
    <h1 align="center">
-    <img alt="Create Project" src=".github/landing.png" />
+    <img alt="Create Project" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/landing.png" />
     <br>
 </h1
 
 Finalmente, atribua os métodos aos botões.
 
 <h1 align="center">
-    <img alt="Create Project" src=".github/lastbuttons.png" />
+    <img alt="Create Project" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/lastbuttons.png" />
     <br>
 </h1
+
+
+- [Voltar a Aula 3](https://github.com/shyoutarou/NLW2_Web/wiki/Aula-3-(05-08-2020):-Front-e-Back-End-Web)
+- [Continuar a Aula 5](https://github.com/shyoutarou/NLW2_Web/wiki/Aula-5-(07-08-2020)---Finalizando-app-mobile)
+- [Voltar a Wiki Home](https://github.com/shyoutarou/NLW2_Web/wiki)
+    

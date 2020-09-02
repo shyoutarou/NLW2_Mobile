@@ -1,5 +1,42 @@
 # NLW-Next-Level-Week #2
 
+<details>
+ <summary>Videos Youtube</summary>
+
+
+1. NWL#1 - Ecoleta
+[NWL#1 Aula 1](https://www.youtube.com/watch?v=4H0CBnLfCQE)
+[NWL#1 Aula 2](https://www.youtube.com/watch?v=RDHDUOLxI20)
+[NWL#1 Aula 3](https://www.youtube.com/watch?v=rlxdnIsB4RQ)
+[NWL#1 Aula 4](https://www.youtube.com/watch?v=VMycI3_KeHs)
+[NWL#1 Aula 5](https://www.youtube.com/watch?v=UHy7ZZfBg80)
+
+1. Trilha Discovery
+[Trilha Discovery Aula 1](https://www.youtube.com/watch?v=PQ-F5N3CiXk)
+[Trilha Discovery Aula 2](https://www.youtube.com/watch?v=XDQelpd5CZ8)
+[Trilha Discovery Aula 3](https://www.youtube.com/watch?v=XeMqsRjZoDw)
+[Trilha Discovery Aula 4](https://www.youtube.com/watch?v=_sZzCcf87j0)
+[Trilha Discovery Aula 5](https://www.youtube.com/watch?v=wey26PDl2f8)
+
+2. Trilha OmniStack
+[Trilha OmniStack Aula 1](https://www.youtube.com/watch?v=AC7fGkJRYNw)
+[Trilha OmniStack Aula 2](https://www.youtube.com/watch?v=TjUO72eAtog)
+[Trilha OmniStack Aula 3](https://www.youtube.com/watch?v=ytVJxv0OPEA)
+[Trilha OmniStack Aula 4](https://www.youtube.com/watch?v=_sZzCcf87j0)
+[Trilha OmniStack Aula 5](https://www.youtube.com/watch?v=EvRAXJuQrFE)
+
+</details>
+
+
+<details>
+ <summary>GitHub Pages</summary>
+
+1. [Web](https://shyoutarou.github.io/NLW2_Web/)
+2. [Mobile](https://shyoutarou.github.io/NLW2_Mobile/)
+
+</details>
+
+
 <h1 align="center">
     <img alt="NextLevelWeek" title="#NextLevelWeek" style="object-fit: cover; width:250px; height:250px;" src=".github/nlw.gif"  />
 </h1>
@@ -56,55 +93,13 @@ Desenvolvimento do projeto Next Level Week, desenvolvido pela Rocketseat.
 |  **06/08**  |**Até 2 anos em 2 meses**|   ![npm](https://img.shields.io/npm/v/react-native?color=black&label=React-Native&logo=react) ![npm](https://img.shields.io/npm/v/expo?color=black&label=Expo&logo=expo)            |
 |  **07/08**  |**A milha extra**|             |
 
-### Funcionalidades
 
-#### Aula 1: Proffy-Web
-- [ ] Criando estrutura da landing page
-- [ ] Estilizando landing page
-- [ ] Configurando navegação do app
-- [ ] Estruturando listagem de professores
-- [ ] Estilizando listagem de professores
-- [ ] Criando componentes comuns (Teacher Item)
+### Desenvolvimento NLW2_Mobile wiki!
 
-#### Aula 2: Proffy-Server
-- [ ] Identificando casos de uso
-- [ ] Configurando conexão com o banco
-- [ ] Criando tabelas no banco de dados
-- [ ] Criação de aulas
-- [ ] Listagem de aulas
-- [ ] Criação e total de coneções
+Resumo dos 2 últimos dias da NLW da Rocketseat.
 
-#### Aula 3: Finalizando Front-End
-- [ ] Estruturando página de cadastro
-- [ ] Estilizando página de cadastro
-- [ ] Preparando cadastro de horários
-- [ ] Carregando total de conexões na Landing
-- [ ] Cadastro de novas aulas
-- [ ] Listagem de professores
-
-#### Aula 4: Estruturando app mobile
-- [x] Criando projeto com expo
-- [x] Estruturando Landing Page
-- [x] Estilizando Landing Page
-- [x] Navegação da Landing Page
-- [x] Página de "Dar aulas"
-- [x] Páginas internas
-- [x] Navegação em abas
-- [x] Componente Page Header
-
-[Passo-a-Passo Aula 4](https://github.com/shyoutarou/NLW2_Web/wiki/Aula-4-(06-08-2020)---Estruturando-app-mobile)
-
-#### Aula 5: Finalizando app mobile
-- [x] Lista de professores
-- [x] Filtro de professores
-- [x] Conectando com a API
-  - [x] Total de conexões
-  - [x] Lista de professores
-- [x] Contato via Whatsapp
-- [x] Adicionando e removendo favoritos
-- [x] Listando favoritos
-
-[Passo-a-Passo Aula 5](https://github.com/shyoutarou/NLW2_Web/wiki/Aula-5-(07-08-2020)---Finalizando-app-mobile)
+4. [Aula 4](https://github.com/shyoutarou/NLW2_Web/wiki/Aula-4-(06-08-2020)---Estruturando-app-mobile)
+5. [Aula 5](https://github.com/shyoutarou/NLW2_Web/wiki/Aula-5-(07-08-2020)---Finalizando-app-mobile)
 
 ## 📸 Screenshots
 
@@ -199,19 +194,17 @@ $ expo install expo-font @expo-google-fonts/archivo @expo-google-fonts/poppins
 
 ## Extra chalenges in App Version 2.0
 
-- [ ] Splash Screen
-- [ ] OnBoarding Screen na primeira execução
+- [x] Splash Screen
+- [x] OnBoarding Screen na primeira execução
 - [ ] Infinite Scroll
-- [ ] Autenticação
+- [x] Autenticação
   - [x] Login / Logout 
   - [x] Permanecer logado - Token
   - [x] Recuperar senha
-  - [x] Telas da Web
-  - [ ] Telas do Mobile
 - [ ] Rating system
-- [ ] Manutenção de cadastro de Professor
-- [ ] Perfil do usuário
-- [ ] Adicionar e remover os Horários no cadastro das Aulas 
+- [x] Manutenção de cadastro de Professor
+- [x] Perfil do usuário
+- [x] Adicionar e remover os Horários no cadastro das Aulas 
 - [ ] Adicionando e removendo favoritos usando ContextApi
 - [ ] Deploy
  
