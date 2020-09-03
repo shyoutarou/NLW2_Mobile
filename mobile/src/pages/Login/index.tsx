@@ -90,7 +90,7 @@ function Login() {
   }
 
   function handlePressSignUP() {
-    return navigation.navigate("Cadastro1");
+    return navigation.navigate("SignUp");
   }
 
   return (
