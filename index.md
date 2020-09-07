@@ -34,7 +34,7 @@ E escolha a opção:
 blank (TypeScript)    same as blank but with TypeScript configuration
 ```
 <h1 align="center">
-    <img alt=“Image” src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/typesciptconfig.png" />
+    <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/typesciptconfig.png" />
 </h1>
 
 
@@ -47,7 +47,7 @@ npx react-native init authrn --template react-native-template-typescript
  
 Com npx ele busca o pacote na web instala na sua máquina na versão mais atualizada, executa o comando react-native, deixa em cache por um tempo e depois desinstala, dessa forma você não precisa ficar com o react-native cli na node_modules principal da sua máquina. O template Typescript vem da flag: --template react-native-template-typescript. Porém a estrutura do projeto e as estratégias do desenvolvimento da aplicação diferem.
  <h1 align="center">
-    <img alt=“Image” width="500" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/typescriptflag.png" />
+    <img alt="Image" width="500" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/typescriptflag.png" />
     <br>
 </h1>
 
@@ -59,7 +59,7 @@ npx react-native run-android
 
 Como no projeto expo não existe a pasta android, acontece o seguinte erro:
  <h1 align="center">
-    <img alt=“Image” src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/androiderro.png" />
+    <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/androiderro.png" />
 </h1>
 
 ```bash
@@ -68,12 +68,12 @@ error Android project not found. Are you sure this is a React Native project? If
 
 Ao pesquisar na Internet sobre o problema vai levar a vários tópicos que vão indicar para atualizar o react-native, o que vai levar a outra sucessão de erros:
 <h1 align="center">
-    <img alt=“Image” src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/sucessaoerros.png" />
+    <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/sucessaoerros.png" />
 </h1>
 
 No projeto Expo, que faz a interface com o navegador é o Metro Builder pelo navegador, e é ele que oferece as opções de depuração da aplicação. Porém para dispositivos físicos, aparentemente, não diferenças no desenvolvimento.
 <h1 align="center">
-    <img alt=“Image” src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/MetroBuilder.png" />
+    <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/MetroBuilder.png" />
 </h1>
 
 Dentro da pasta do projeto digite:
@@ -82,7 +82,7 @@ Dentro da pasta do projeto digite:
 yarn add expo OU npm install expo
 ```
   <h1 align="center">
-    <img alt=“Image” src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/installexpo.png" />
+    <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/installexpo.png" />
     <br>
 </h1>
 
@@ -91,18 +91,18 @@ Depois digite:
 yarn start OU npm start
 ```
 <h1 align="center">
-    <img alt=“Image” src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/startmobile.png" />
+    <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/startmobile.png" />
     <br>
 </h1>
 
 Que vai abrir o browser para visualizar os logs da aplicação, quais celulares disponíveis estão debugando, etc. 
   <h1 align="center">
-    <img alt=“Image” src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/logsbuilder.png" />
+    <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/logsbuilder.png" />
 </h1>
 
 Quais celulares disponíveis estão debugando, etc.
 <h1 align="center">
-    <img alt=“Image” src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/devices.png" />
+    <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/devices.png" />
 </h1>
  
 Para listar emuladores podemos aplicar o comando:
@@ -110,7 +110,7 @@ Para listar emuladores podemos aplicar o comando:
 emulator –list-avds
 ```
 <h1 align="center">
-    <img alt=“Image” src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/emulators.png" />
+    <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/emulators.png" />
 </h1>
 
 
@@ -126,7 +126,7 @@ exp://192.168.0.101:19000
 
 Para testar com o QR Code temos que instalar o app Expo cliente no celular:
 <h1 align="center">
-    <img alt=“Image” width="200" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/qrcode.png" />
+    <img alt="Image" width="200" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/qrcode.png" />
 </h1>
 
 ```bash
@@ -139,7 +139,7 @@ To run the app with live reloading, choose one of:
 
 Com este QR Code é possível passar para outras pessoas com o expo instalado para poderem avaliar seu aplicativo pronto:
 <h1 align="center">
-    <img alt=“Image” src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/qrothers.png" />
+    <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/qrothers.png" />
 </h1>
 
 Para testar no emulador podemos ver o vídeo do link antes pra saber como instalar para React Native:
@@ -150,28 +150,28 @@ O expo pode dar muitos problemas de configuração, tem limitações de proxy e 
 
 Como podemos ver a estrutura do programa mobile e igual a da Web: JSX (Javascript + XML) e funções retornando Elementos gráficos com componentes utilizando os estados e propiedades. Porém estes elementos não são HTML puro e sim componentes pré-criados pela biblioteca do Native (StyleSheet, Text, View) e todos elementos tem display flex por padrão. O css também não existe (classes, ids) e nem herança de estilos. Cria-se um estilo particular e identificado por elemento. Não há parte de animações, nem gradientes, grid tem que fazer na unha.
  <h1 align="center">
-    <img alt=“Image” src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/stylesmobile.png" />
+    <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/stylesmobile.png" />
 </h1>
 
 A única exceção de herança de estilo é quando se coloca componentes Text aninhados como abaico:
   <h1 align="center">
-    <img alt=“Image” src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/textstyle.png" />
+    <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/textstyle.png" />
 </h1>
 
 Por padrão, o Native também não lê arquivos de imagem svg só png. Teria que instalar uma extensão. No mobile tem o conceito de densidade de pixels e temos que exportar as imagens em 3 tamanhos que o Native reconhece a resolução pelo nome ...2x, 3x, etc. Antes de existir o React, não era possível o Javascript reconhecer imagens. Para fazer a aplicação reconhecer arquivos png precisamos criar uma pasta @type em src com um arquivo index.d.ts com a seguinte declaração:
 declare module '*.png';
 <h1 align="center">
-    <img alt=“Image” src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/modulepng.png" />
+    <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/modulepng.png" />
 </h1>
 
 Crie uma pasta src e dentro dela a pasta pages. Dentro dessa pasta teremos as páginas igual o que foi feito na aplicação web. Comece criando a página/pasta Landing com os arquivos index.tsx e styles,ts (não mais css)
 <h1 align="center">
-    <img alt=“Image” src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/indextsx.png" />
+    <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/indextsx.png" />
 </h1>
 
 No arquivo principal App.tsx vamos prepara-lo para receber o componente Landing. Como não é possível “empilhar” os companentes Landing e StatusBar sem que haja alg envelopando-os, aqui podemos fazer de duas formas principais:
 <h1 align="center">
-    <img alt=“Image” src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/viewfrag.png" />
+    <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/viewfrag.png" />
 </h1>
 
 A vantagem do Fragment é que não irá renderizar mais uma View, pois de Landing já está retornando outra View.
@@ -181,7 +181,7 @@ Para instalar as fontes usadas no projeto Web (Archivo e Poppins) faça o seguin
 expo install @expo-google-fonts/archivo @expo-google-fonts/poppins
 ```
 <h1 align="center">
-    <img alt=“Image” src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/googlefonts.png" />
+    <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/googlefonts.png" />
 </h1>
 
 Após feito isso, na página App.tsx importe as fontes e o módulo AppLoading:
@@ -192,12 +192,12 @@ import { Poppins_400Regular, Poppins_600SemiBold } from '@expo-google-fonts/popp
 ```
 Na mesma página, declare globalmente as variáveis e faça um condicional para verificar se as fontes foram carregadas:
 <h1 align="center">
-    <img alt=“Image” src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/globlafonts.png" />
+    <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/globlafonts.png" />
 </h1>
 
 Por fim, é so utilizar nas StyleSheets de qualquer página.
 <h1 align="center">
-    <img alt=“Image” src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/StyleSheets.png" />
+    <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/StyleSheets.png" />
 </h1>
  
 Inicialmente, para criar os botões podemos utilizar o TouchableOpacity, importando do React Native.
@@ -208,7 +208,7 @@ import {View, Image, Text, TouchableOpacity} from 'react-native'
 
 E aplicando nos botões ficaria como abaixo. Repare que o style recebe um array de estilos, permitindo 2 estilos aproveitarem um estilo básico simulando a flexibilização de uma herança.
 <h1 align="center">
-    <img alt=“Image” src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/buttonsstyle.png" />
+    <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/buttonsstyle.png" />
 </h1>
 
 ### Rota no React Native
@@ -218,7 +218,7 @@ Para navegar vamos instalar a biblioteca React Native digitando:
 yarn add @react-navigation/native OU npm install @react-navigation/native
 ```
 <h1 align="center">
-    <img alt=“Image” src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/react-navigation.png" />
+    <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/react-navigation.png" />
 </h1>
 
 
@@ -227,7 +227,7 @@ Depois temos que instalar as dependências em relação ao expo:
 expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
 ```
 <h1 align="center">
-    <img alt=“Image” src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/gesture-handler.png" />
+    <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/gesture-handler.png" />
 </h1>
 
 A 3 tipos principais de navegação React:
@@ -242,37 +242,37 @@ Precisamos instalar então a navegação stack e bottomtabs:
 yarn add @react-navigation/stack OU npm install @react-navigation/stack
 ```
 <h1 align="center">
-    <img alt=“Image” src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/navigationstack.png" />
+    <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/navigationstack.png" />
 </h1>
 
 ```bash
 yarn add @react-navigation/bottom-tabs
 ```
 <h1 align="center">
-    <img alt=“Image” src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/bottom-tabs.png" />
+    <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/bottom-tabs.png" />
 </h1>
 
 Criamos então uma pasta routes dentro de src e criamos duas páginas AppStack.tsx e StudyTabs.tsx uma pra cada tipo de navegação. A AppStack.tsx conterá as chamadas das páginas sem Tabs Landing e GiveClasses e a página com as Tabs StudyTabs. E por fim, nosso AppStack tem retornar um NavigationContainer contendo as telas(Screen) conforme a documentação.
 <h1 align="center">
-    <img alt=“Image” src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/telasScreen.png" />
+    <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/telasScreen.png" />
 </h1>
 
 A StudyTabs terá o direcionamento para duas páginas TeacherList (aba Proffys) e Favoritos. Na StudyTabs conterá o conteúdo e o visual (style.ts) das tabs.
 
 <h1 align="center">
-    <img alt=“Image” src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/StudyTabs.png" />
+    <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/StudyTabs.png" />
 </h1>
 
 Repare no módulo Ionicons que traz umas biblioteca de ícones padrão para celular.
 [ionicons](https://ionicons.com/)
 <h1 align="center">
-    <img alt=“Image” width="500" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/ionicons.png" />
+    <img alt="Image" width="500" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/ionicons.png" />
 </h1>
 
 Poderia ter sido utilizado o icons do:
 [feathericons](https://feathericons.com/)
 <h1 align="center">
-    <img alt=“Image”  width="500" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/feathericons.png" />
+    <img alt="Image"  width="500" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/feathericons.png" />
 </h1>
 
 
@@ -292,7 +292,7 @@ E que a estilização do tab tem ser feita pela propriedade tabBarOptions do Nav
 
 
 <h1 align="center">
-    <img alt=“Image” src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/StudyTabs.png" />
+    <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/StudyTabs.png" />
 </h1>
 ```bash
 <Ionicons name="ios-easel" size={20} color= '#fff'/>
@@ -300,23 +300,23 @@ E que a estilização do tab tem ser feita pela propriedade tabBarOptions do Nav
 ```
 
 <h1 align="center">
-    <img alt=“Image” src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/StudyTabs.png" />
+    <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/StudyTabs.png" />
 </h1>
 
 
 <h1 align="center">
-    <img alt=“Image” src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/StudyTabs.png" />
+    <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/StudyTabs.png" />
 </h1>
 
 
 
 
 <h1 align="center">
-    <img alt=“Image”  width="500" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/tabBarOptions.png" />
+    <img alt="Image"  width="500" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/tabBarOptions.png" />
 </h1>
 
 <h1 align="center">
-    <img alt=“Image”  width="500" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/proffysdispo.png" />
+    <img alt="Image"  width="500" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/proffysdispo.png" />
 </h1>
 
 
@@ -324,17 +324,17 @@ As duas páginas devem conter conteúdo similar que irá ter o conteúdo (index.
 
 
 <h1 align="center">
-    <img alt=“Image” src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/tabBarOptions.png" />
+    <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/tabBarOptions.png" />
 </h1>
 
 <h1 align="center">
-    <img alt=“Image” width="500" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/proffysdispo.png" />
+    <img alt="Image" width="500" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/proffysdispo.png" />
 </h1
 
 As duas páginas devem conter conteúdo similar que irá ter o conteúdo (index.tsx) e o visual (style.ts) das páginas.
 
 <h1 align="center">
-    <img alt=“Image” src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/favorites.png" />
+    <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/favorites.png" />
 </h1
 
 
@@ -346,13 +346,13 @@ import { useNavigation } from '@react-navigation/native'
 
 Crie as funções que serão associando aos botões de navegação e indique a rota:
 <h1 align="center">
-    <img alt=“Image” src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/landing.png" />
+    <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/landing.png" />
 </h1
 
 Finalmente, atribua os métodos aos botões.
 
 <h1 align="center">
-    <img alt=“Image” src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/lastbuttons.png" />
+    <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/lastbuttons.png" />
 </h1
 
 # Aula 5 (07/08/2020) - Finalizando app mobile
@@ -363,13 +363,13 @@ Precisamos instalar novamente a biblioteca que facilita o consumo de API externa
 yarn add axios
 
 <h1 align="center">
-    <img alt=“Image” src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/addaxios.png" />
+    <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/addaxios.png" />
 </h1>
 
 Como no projeto Web, crie uma pasta services e dentro dela o arquivo api.ts.
 
 <h1 align="center">
-    <img alt=“Image” src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/apits.png" />
+    <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/apits.png" />
 </h1>
 
 
@@ -378,52 +378,52 @@ O IP que utilizamos é o disponibilizado pelo Metro Bundler abaixo que permite t
 192.168.0.101:3333
 ```
 <h1 align="center">
-    <img alt=“Image” src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/lanmaq.png" />
+    <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/lanmaq.png" />
 </h1>
 
 
 Isso é necessário pois o localhost pode não ser acessível na rede, então é necessário utilizar o IP. Em um terminal paralelo, navegue até a pasta do servidor e inicie-o com o comando yarn start. Depois teste com o Insomnia a conexão:
  <h1 align="center">
-    <img alt=“Image” src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/Insomnia.png" />
+    <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/Insomnia.png" />
     <br>
 </h1>
 
 A chamada da API na aplicação mobile é idêntica a da web.
  <h1 align="center">
-    <img alt=“Image” src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/chamadaAPI.png" />
+    <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/chamadaAPI.png" />
 </h1>
  <h1 align="center">
-    <img alt=“Image” src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/conexoes.png" />
+    <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/conexoes.png" />
 </h1>
 
 Já nos componentes de filtro da página TeacherList, uma diferença é que invés de Onchange está se usando OnchangeText, mas isso porque, por razões de tempo, não foi implementado a caixa de seleção (ficando como um dos Desafios mais adiante).
  <h1 align="center">
-    <img alt=“Image” src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/setsuject.png" />
+    <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/setsuject.png" />
 </h1>
 
 
 Para testar o botão de filtro é possível fazer a mesma estratégia de emitir um console.log no método relacionado:
  <h1 align="center">
-    <img alt=“Image” src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/handlefilter.png" />
+    <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/handlefilter.png" />
 </h1>
  <h1 align="center">
-    <img alt=“Image” src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/filersubmit.png" />
+    <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/filersubmit.png" />
 </h1>
 
 
 Única coisa a se lembrar é de trocar o aparelho que estiver se testando, se for emulador ou aparelho físico.
  <h1 align="center">
-    <img alt=“Image” src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/aparelho.png" />
+    <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/aparelho.png" />
 </h1>
  
 
 Feito isso o método é idêntico ao do projeto web:
  <h1 align="center">
-    <img alt=“Image” src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/projetoweb.png" />
+    <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/projetoweb.png" />
 </h1> 
 
  <h1 align="center">
-    <img alt=“Image” width="300" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/proffyaba.png" />
+    <img alt="Image" width="300" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/proffyaba.png" />
 </h1> 
 
 ## WhatsApp – Deep Linking
@@ -434,7 +434,7 @@ No botão do WhatsApp vamos aplicar uma técnica conhecida como “Deep Linking�
 import { View, Image, Text, Linking, AsyncStorage } from 'react-native'; 
 ```
  <h1 align="center">
-    <img alt=“Image” src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/imports.png" />
+    <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/imports.png" />
 </h1> 
 
 ### Favoritos – Armazenamento Interno
@@ -444,18 +444,18 @@ Para armazenamento interno no mobile precisamos instalar um DB pelo:
 expo install @react-native-community/async-storage
 ```
  <h1 align="center">
-    <img alt=“Image” src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/async-storage.png" />
+    <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/async-storage.png" />
 </h1> 
 
 Temos que criar a propriedade no componente TeacherItem para sabermos quando foi favoritado e fazer as mudanças necessárias no Layout.
 
  <h1 align="center">
-    <img alt=“Image” src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/TeacherItem.png" />
+    <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/TeacherItem.png" />
     <br>
 </h1> 
 
  <h1 align="center">
-    <img alt=“Image” src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/TeacherItem2.png" />
+    <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/TeacherItem2.png" />
     <br>
 </h1> 
 
@@ -463,7 +463,7 @@ Temos que criar a propriedade no componente TeacherItem para sabermos quando foi
 O favoriteArray.push adiciona o item no Array de favorito, o splice remove o conteúdo da lista. No botão dos favoritos há apenas um condicional trocando a imagem do botão favorito:
 
  <h1 align="center">
-    <img alt=“Image” src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/favoriteArray.png" />
+    <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/favoriteArray.png" />
     <br>
 </h1> 
 
@@ -473,7 +473,7 @@ Na página TeacherList precisamos de uma variável constante de estado, para aco
 const [favorites, setFavorites] = useState<number[]>([]);
 ```
  <h1 align="center">
-    <img alt=“Image” src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/TeacherList.png" />
+    <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/TeacherList.png" />
     <br>
 </h1> 
     
