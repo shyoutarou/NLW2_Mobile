@@ -15,6 +15,7 @@
 Resumo dos últimos dias da NLW da Rocketseat.
 
 [Wiki Home](https://github.com/shyoutarou/NLW2_Web/wiki)
+2. [Aula 2](https://github.com/shyoutarou/NLW2_Web/wiki/Aula-2-(04-08-2020):-Proffy-Server)
 4. [Aula 4](https://github.com/shyoutarou/NLW2_Web/wiki/Aula-4-(06-08-2020)---Estruturando-app-mobile)
 5. [Aula 5](https://github.com/shyoutarou/NLW2_Web/wiki/Aula-5-(07-08-2020)---Finalizando-app-mobile)
 
