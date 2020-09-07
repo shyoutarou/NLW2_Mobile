@@ -323,17 +323,19 @@ import { Feather } from '@expo/vector-icons';
 
 
 E que a estilização do tab tem ser feita pela propriedade tabBarOptions do Navigator.
-   <h1 align="center">
+<h1 align="center">
     <img alt="Create Project" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/tabBarOptions.png" />
     <br>
 </h1>
-   <h1 align="center">
+
+<h1 align="center">
     <img alt="Create Project" width="500" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/proffysdispo.png" />
     <br>
 </h1
 
 As duas páginas devem conter conteúdo similar que irá ter o conteúdo (index.tsx) e o visual (style.ts) das páginas.
-   <h1 align="center">
+
+<h1 align="center">
     <img alt="Create Project" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/favorites.png" />
     <br>
 </h1
@@ -346,7 +348,7 @@ import { useNavigation } from '@react-navigation/native'
 ```
 
 Crie as funções que serão associando aos botões de navegação e indique a rota:
-   <h1 align="center">
+<h1 align="center">
     <img alt="Create Project" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/landing.png" />
     <br>
 </h1
@@ -452,7 +454,7 @@ import { View, Image, Text, Linking, AsyncStorage } from 'react-native';
     <br>
 </h1> 
 
-## Favoritos – Armazenamento Interno
+### Favoritos – Armazenamento Interno
 
 Para armazenamento interno no mobile precisamos instalar um DB pelo:
 ```bash
