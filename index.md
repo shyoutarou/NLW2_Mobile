@@ -3,31 +3,24 @@
 
 # Aula 4 (06/08/2020) - Estruturando app mobile
 
-details>
- <summary>Videos Youtube</summary>
-
+### Videos Youtube
 2. Trilha OmniStack
-[Trilha OmniStack Aula 4](https://www.youtube.com/watch?v=_sZzCcf87j0)
-[Trilha OmniStack Aula 5](https://www.youtube.com/watch?v=EvRAXJuQrFE)
+- [Trilha OmniStack Aula 2](https://www.youtube.com/watch?v=TjUO72eAtog)
+- [Trilha OmniStack Aula 4](https://www.youtube.com/watch?v=_sZzCcf87j0)
+- [Trilha OmniStack Aula 5](https://www.youtube.com/watch?v=EvRAXJuQrFE)
 
-</details>
 
-<details>
- <summary>Wikis</summary>
+### Wikis
+
+Resumo dos últimos dias da NLW da Rocketseat.
 
 [Wiki Home](https://github.com/shyoutarou/NLW2_Web/wiki)
 4. [Aula 4](https://github.com/shyoutarou/NLW2_Web/wiki/Aula-4-(06-08-2020)---Estruturando-app-mobile)
 5. [Aula 5](https://github.com/shyoutarou/NLW2_Web/wiki/Aula-5-(07-08-2020)---Finalizando-app-mobile)
 
-</details>
+### GitHub Pages
 
-<details>
- <summary>GitHub Pages</summary>
-
-1. [Web](https://shyoutarou.github.io/NLW2_Web/)
-2. [Mobile](https://shyoutarou.github.io/NLW2_Mobile/)
-
-</details>
+[GitHub Pages Web](https://shyoutarou.github.io/NLW2_Web/)
 
 ## Interface Mobile
 
