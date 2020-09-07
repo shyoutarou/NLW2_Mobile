@@ -290,27 +290,6 @@ import { Feather } from '@expo/vector-icons';
 
 E que a estilização do tab tem ser feita pela propriedade tabBarOptions do Navigator
 
-
-<h1 align="center">
-    <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/StudyTabs.png" />
-</h1>
-```bash
-<Ionicons name="ios-easel" size={20} color= '#fff'/>
-<Feather name="filter" size={20} color="#fff" />
-```
-
-<h1 align="center">
-    <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/StudyTabs.png" />
-</h1>
-
-
-<h1 align="center">
-    <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/StudyTabs.png" />
-</h1>
-
-
-
-
 <h1 align="center">
     <img alt="Image"  width="500" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/tabBarOptions.png" />
 </h1>
@@ -318,18 +297,6 @@ E que a estilização do tab tem ser feita pela propriedade tabBarOptions do Nav
 <h1 align="center">
     <img alt="Image"  width="500" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/proffysdispo.png" />
 </h1>
-
-
-As duas páginas devem conter conteúdo similar que irá ter o conteúdo (index.tsx) e o visual (style.ts) das páginas.
-
-
-<h1 align="center">
-    <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/tabBarOptions.png" />
-</h1>
-
-<h1 align="center">
-    <img alt="Image" width="500" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/proffysdispo.png" />
-</h1
 
 As duas páginas devem conter conteúdo similar que irá ter o conteúdo (index.tsx) e o visual (style.ts) das páginas.
 
