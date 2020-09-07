@@ -302,7 +302,7 @@ As duas páginas devem conter conteúdo similar que irá ter o conteúdo (index.
 
 <h1 align="center">
     <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/favorites.png" />
-</h1
+</h1>
 
 
 Com isso, já podemos navegar. Na página Landing import useNavigation da React Navigation:
@@ -314,13 +314,13 @@ import { useNavigation } from '@react-navigation/native'
 Crie as funções que serão associando aos botões de navegação e indique a rota:
 <h1 align="center">
     <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/landing.png" />
-</h1
+</h1>
 
 Finalmente, atribua os métodos aos botões.
 
 <h1 align="center">
     <img alt="Image" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/lastbuttons.png" />
-</h1
+</h1>
 
 # Aula 5 (07/08/2020) - Finalizando app mobile
 
