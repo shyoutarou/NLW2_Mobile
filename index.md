@@ -351,7 +351,6 @@ Finalmente, atribua os métodos aos botões.
 
 <h1 align="center">
     <img alt="Create Project" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/lastbuttons.png" />
-    <br>
 </h1
 
 # Aula 5 (07/08/2020) - Finalizando app mobile
@@ -363,14 +362,12 @@ yarn add axios
 
 <h1 align="center">
     <img alt="Create Project" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/addaxios.png" />
-    <br>
 </h1>
 
 Como no projeto Web, crie uma pasta services e dentro dela o arquivo api.ts.
 
 <h1 align="center">
     <img alt="Create Project" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/apits.png" />
-    <br>
 </h1>
 
 
@@ -380,7 +377,6 @@ O IP que utilizamos é o disponibilizado pelo Metro Bundler abaixo que permite t
 ```
 <h1 align="center">
     <img alt="Create Project" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/lanmaq.png" />
-    <br>
 </h1>
 
 
@@ -393,47 +389,39 @@ Isso é necessário pois o localhost pode não ser acessível na rede, então é
 A chamada da API na aplicação mobile é idêntica a da web.
  <h1 align="center">
     <img alt="Create Project" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/chamadaAPI.png" />
-    <br>
 </h1>
  <h1 align="center">
     <img alt="Create Project" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/conexoes.png" />
-    <br>
 </h1>
 
 Já nos componentes de filtro da página TeacherList, uma diferença é que invés de Onchange está se usando OnchangeText, mas isso porque, por razões de tempo, não foi implementado a caixa de seleção (ficando como um dos Desafios mais adiante).
  <h1 align="center">
     <img alt="Create Project" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/setsuject.png" />
-    <br>
 </h1>
 
 
 Para testar o botão de filtro é possível fazer a mesma estratégia de emitir um console.log no método relacionado:
  <h1 align="center">
     <img alt="Create Project" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/handlefilter.png" />
-    <br>
 </h1>
  <h1 align="center">
     <img alt="Create Project" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/filersubmit.png" />
-    <br>
 </h1>
 
 
 Única coisa a se lembrar é de trocar o aparelho que estiver se testando, se for emulador ou aparelho físico.
  <h1 align="center">
     <img alt="Create Project" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/aparelho.png" />
-    <br>
 </h1>
  
 
 Feito isso o método é idêntico ao do projeto web:
  <h1 align="center">
     <img alt="Create Project" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/projetoweb.png" />
-    <br>
 </h1> 
 
  <h1 align="center">
     <img alt="Create Project" width="300" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/proffyaba.png" />
-    <br>
 </h1> 
 
 ## WhatsApp – Deep Linking
@@ -445,7 +433,6 @@ import { View, Image, Text, Linking, AsyncStorage } from 'react-native';
 ```
  <h1 align="center">
     <img alt="Create Project" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/imports.png" />
-    <br>
 </h1> 
 
 ### Favoritos – Armazenamento Interno
@@ -456,7 +443,6 @@ expo install @react-native-community/async-storage
 ```
  <h1 align="center">
     <img alt="Create Project" src="https://raw.githubusercontent.com/shyoutarou/NLW2_Mobile/master/.github/async-storage.png" />
-    <br>
 </h1> 
 
 Temos que criar a propriedade no componente TeacherItem para sabermos quando foi favoritado e fazer as mudanças necessárias no Layout.
