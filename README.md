@@ -37,35 +37,7 @@
 
 </details>
 
-
-<details>
- <summary>Videos Youtube</summary>
-
-
-1. NWL#1 - Ecoleta
-- [NWL#1 Aula 1](https://www.youtube.com/watch?v=4H0CBnLfCQE)
-- [NWL#1 Aula 2](https://www.youtube.com/watch?v=RDHDUOLxI20)
-- [NWL#1 Aula 3](https://www.youtube.com/watch?v=rlxdnIsB4RQ)
-- [NWL#1 Aula 4](https://www.youtube.com/watch?v=VMycI3_KeHs)
-- [NWL#1 Aula 5](https://www.youtube.com/watch?v=UHy7ZZfBg80)
-
-1. Trilha Discovery
-- [Trilha Discovery Aula 1](https://www.youtube.com/watch?v=PQ-F5N3CiXk)
-- [Trilha Discovery Aula 2](https://www.youtube.com/watch?v=XDQelpd5CZ8)
-- [Trilha Discovery Aula 3](https://www.youtube.com/watch?v=XeMqsRjZoDw)
-- [Trilha Discovery Aula 4](https://www.youtube.com/watch?v=_sZzCcf87j0)
-- [Trilha Discovery Aula 5](https://www.youtube.com/watch?v=wey26PDl2f8)
-
-2. Trilha OmniStack
-- [Trilha OmniStack Aula 1](https://www.youtube.com/watch?v=AC7fGkJRYNw)
-- [Trilha OmniStack Aula 2](https://www.youtube.com/watch?v=TjUO72eAtog)
-- [Trilha OmniStack Aula 3](https://www.youtube.com/watch?v=ytVJxv0OPEA)
-- [Trilha OmniStack Aula 4](https://www.youtube.com/watch?v=_sZzCcf87j0)
-- [Trilha OmniStack Aula 5](https://www.youtube.com/watch?v=EvRAXJuQrFE)
-
-</details>
-
-<details>
+<<details>
  <summary>Wikis</summary>
 
 - [Aula 1](https://github.com/shyoutarou/NLW2_Web/wiki/Aula-1-(03-08-2020):-Proffy-Web)
@@ -75,15 +47,6 @@
 - [Aula 5](https://github.com/shyoutarou/NLW2_Web/wiki/Aula-5-(07-08-2020)---Finalizando-app-mobile)
 
 </details>
-
-<details>
- <summary>GitHub Pages</summary>
-
-1. [Web](https://shyoutarou.github.io/NLW2_Web/)
-2. [Mobile](https://shyoutarou.github.io/NLW2_Mobile/)
-
-</details>
-
 
 <h1 align="center">
     <img alt="NextLevelWeek" title="#NextLevelWeek" style="object-fit: cover; width:250px; height:250px;" src=".github/nlw.gif"  />
@@ -118,8 +81,8 @@
     - [📱 Executar Projeto Mobile](#-executar-projeto-mobile)
   - [🐛 Issues](#-issues)
   - [🤝 Contribuições](#-contribuições)
-  - [***AGRADECIMENTOS***](#agradecimentos)
-  - [***REFERÊNCIAS***](#referências)
+  - [Agradecimentos](#agradecimentos)
+  - [Referências](#referências)
   - [📜 License](#-license)
 
 ## ❔ Sobre o projeto
@@ -298,7 +261,7 @@ Siga os passos abaixo para contribuir:
 
 7. Pronto, agora só aguardar a análise 🚀 
 
-## ***AGRADECIMENTOS***
+## Agradecimentos
 
 <div align=center>
   <table style="width:100%">
@@ -321,7 +284,7 @@ Siga os passos abaixo para contribuir:
   </table>
 </div>
 
-## ***REFERÊNCIAS***
+## Referências
 
 - [Autenticação no React Native / ReactJS com Context API & Hooks](https://blog.rocketseat.com.br/autenticacao-no-react-native-reactjs-com-context-api-hooks/)
 - [https://blog.rocketseat.com.br/reactjs-autenticacao/](https://blog.rocketseat.com.br/reactjs-autenticacao/)
