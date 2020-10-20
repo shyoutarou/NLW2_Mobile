@@ -5,26 +5,37 @@
 
 
 1. NWL#1 - Ecoleta
-[NWL#1 Aula 1](https://www.youtube.com/watch?v=4H0CBnLfCQE)
-[NWL#1 Aula 2](https://www.youtube.com/watch?v=RDHDUOLxI20)
-[NWL#1 Aula 3](https://www.youtube.com/watch?v=rlxdnIsB4RQ)
-[NWL#1 Aula 4](https://www.youtube.com/watch?v=VMycI3_KeHs)
-[NWL#1 Aula 5](https://www.youtube.com/watch?v=UHy7ZZfBg80)
-
-1. Trilha Discovery
-[Trilha Discovery Aula 1](https://www.youtube.com/watch?v=PQ-F5N3CiXk)
-[Trilha Discovery Aula 2](https://www.youtube.com/watch?v=XDQelpd5CZ8)
-[Trilha Discovery Aula 3](https://www.youtube.com/watch?v=XeMqsRjZoDw)
-[Trilha Discovery Aula 4](https://www.youtube.com/watch?v=_sZzCcf87j0)
-[Trilha Discovery Aula 5](https://www.youtube.com/watch?v=wey26PDl2f8)
+- [NWL#1 Aula 1](https://www.youtube.com/watch?v=4H0CBnLfCQE)
+- [NWL#1 Aula 2](https://www.youtube.com/watch?v=RDHDUOLxI20)
+- [NWL#1 Aula 3](https://www.youtube.com/watch?v=rlxdnIsB4RQ)
+- [NWL#1 Aula 4](https://www.youtube.com/watch?v=VMycI3_KeHs)
+- [NWL#1 Aula 5](https://www.youtube.com/watch?v=UHy7ZZfBg80)
 
 2. Trilha OmniStack
-[Trilha OmniStack Aula 1](https://www.youtube.com/watch?v=AC7fGkJRYNw)
-[Trilha OmniStack Aula 2](https://www.youtube.com/watch?v=TjUO72eAtog)
-[Trilha OmniStack Aula 3](https://www.youtube.com/watch?v=ytVJxv0OPEA)
-[Trilha OmniStack Aula 4](https://www.youtube.com/watch?v=_sZzCcf87j0)
-[Trilha OmniStack Aula 5](https://www.youtube.com/watch?v=EvRAXJuQrFE)
+- [Trilha OmniStack Aula 1](https://www.youtube.com/watch?v=7WvMuYQxWiY)
+- [Trilha OmniStack Aula 2](https://www.youtube.com/watch?v=eboV7pTAuvQ)
+- [Trilha OmniStack Aula 3](https://www.youtube.com/watch?v=dQejdNMUIIs)
+- [Trilha OmniStack Aula 4](https://www.youtube.com/watch?v=fMd6Dnl08FQ)
+- [Trilha OmniStack Aula 5](https://www.youtube.com/watch?v=L5UfFYwFs8c)
 
+- [Trilha OmniStack Aula 1](https://www.youtube.com/watch?v=Joc--gM3v38)
+- [Trilha OmniStack Aula 2](https://www.youtube.com/watch?v=5sE63gIQdEI)
+- [Trilha OmniStack Aula 3](https://www.youtube.com/watch?v=qIA6Ggu4Qto)
+- [Trilha OmniStack Aula 4](https://www.youtube.com/watch?v=EP5y-MznodY)
+- [Trilha OmniStack Aula 5](https://www.youtube.com/watch?v=upE15aksrd0)
+
+- [Trilha OmniStack Aula 1](https://www.youtube.com/watch?v=5sMFlyLPBNY)
+- [Trilha OmniStack Aula 2](https://www.youtube.com/watch?v=i08M1RIy8vw)
+- [Trilha OmniStack Aula 3](https://www.youtube.com/watch?v=ccErBt6lQ1Y)
+- [Trilha OmniStack Aula 4](https://www.youtube.com/watch?v=ZTqVu3dksfM)
+- [Trilha OmniStack Aula 5](https://www.youtube.com/watch?v=7PJ1VKSv2a4)
+
+1. NWL#3
+- [Trilha OmniStack Aula 1](https://www.youtube.com/watch?v=Cea4EN35T3I)
+- [Trilha OmniStack Aula 2](https://www.youtube.com/watch?v=NJULy1-creQ)
+- [Trilha OmniStack Aula 3](https://www.youtube.com/watch?v=JF0B3HlvHpM)
+- [Trilha OmniStack Aula 4](https://www.youtube.com/watch?v=_mPYS5IjwP0)
+- [Trilha OmniStack Aula 5](https://www.youtube.com/watch?v=9JvaJn-W4X4)
 
 </details>
 
@@ -37,7 +48,7 @@
 
 </details>
 
-<<details>
+<details>
  <summary>Wikis</summary>
 
 - [Aula 1](https://github.com/shyoutarou/NLW2_Web/wiki/Aula-1-(03-08-2020):-Proffy-Web)
